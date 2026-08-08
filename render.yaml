@@ -1,0 +1,15 @@
+# ============================================================
+# Render Blueprint for AI Prescription Intelligence - Frontend
+# ============================================================
+# A static site. The build reads VITE_API_URL (the deployed
+# backend URL) and bakes it into the bundle.
+services:
+  - type: web
+    name: prescription-doctor-frontend
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    autoDeploy: true
+    envVars:
+      - key: VITE_API_URL
+        sync: false
