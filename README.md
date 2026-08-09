@@ -1,5 +1,7 @@
 # Prescription-doctor-frontend
 
+https://prescription-ai-frontend.onrender.com/
+
 # AI Prescription Intelligence - Frontend
 
 React + Vite + Tailwind CSS frontend for the prescription analysis app.
